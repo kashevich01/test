@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  margin: 0 auto;
+}
+.navbar {
+  background-color: #343a40;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+}
+.jumbotron {
+  padding-top: 55px;
+  padding-left: 41px;
+  background-color: #e9ecef;
+  height: 342px;
+}
+@media (max-width: 576px) {
+  .jumbotron {
+    padding-top: 32px;
+    padding-left: 25px;
+    padding-right: 15px;
+    height: 390px;
+  }
+  .display-4 {
+    font-size: 48px;
+    font-weight: 300;
+  }
+}
